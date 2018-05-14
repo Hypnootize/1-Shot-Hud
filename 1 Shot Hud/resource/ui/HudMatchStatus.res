@@ -284,6 +284,7 @@
 		if_match
 		{
 			"zpos"				"5"
+			"ypos"				"10"
 		}
 		
 		"TimePanelValue"
@@ -301,12 +302,6 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-			
-			if_match
-			{
-				"font"								"M0refont12"
-				"ypos"								"6"
-			}
 		}	
 	}
 	

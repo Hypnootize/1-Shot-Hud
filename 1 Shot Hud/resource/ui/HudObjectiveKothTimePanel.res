@@ -20,11 +20,6 @@
 		"visible"			"1"
 		"enabled"			"1"
 		
-		if_match
-		{
-			
-		}
-		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
@@ -62,11 +57,6 @@
 		"visible"			"1"
 		"enabled"			"1"
 		
-		if_match
-		{
-			
-		}
-		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
@@ -86,7 +76,7 @@
 			if_match
 			{
 				"font"			"M0refont12"
-				"xpos"			"70"
+				"xpos"			"35"
 				"ypos"			"18"
 			}
 		}	
