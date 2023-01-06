@@ -654,7 +654,7 @@
 			"wide"			"190"
 			"tall"			"12"
 			"visible"		"1"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 		}
 	}
 	

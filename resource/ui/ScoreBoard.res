@@ -28,8 +28,8 @@
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"			"MvMScoreboard"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"c-300"
+		"ypos"				"-8"
 		"zpos"				"10"
 		"wide"				"f0"
 		"tall"				"480"
@@ -62,6 +62,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"235 227 203 255"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"TeamBG"
 	{
@@ -90,6 +95,11 @@
 		"teambg_3_lodef"	"../hud/character_blue_bg_lodef"
 		"src_corner_height"		"40"			
 		"src_corner_width"		"40"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 //search mark
 	"PlayerScoreLabel"
@@ -112,6 +122,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"white"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	
 
@@ -135,6 +150,11 @@
 		"src_corner_width"		"40"			
 		"draw_corner_width"		"0"					
 		"draw_corner_height" 	"0"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"BluePlayerList"
 	{
@@ -152,6 +172,11 @@
 		"autoresize"		"3"
 		"linespacing"		"15"
 		"fgcolor"			"blue"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"BlueTeamBG"
 	{
@@ -168,6 +193,11 @@
 		"enabled"				"1"
 		"fillcolor"				"0 0 0 150"
 		"PaintBackgroundType"	"0"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}				
 	"BlueTeamScore"
 	{
@@ -185,6 +215,11 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"BlueTeamLabel"
 	{
@@ -203,6 +238,11 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}		
 	"BlueTeamPlayerCount"
 	{
@@ -219,6 +259,11 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}	
 	
 	// red
@@ -241,6 +286,11 @@
 		"src_corner_width"		"40"			
 		"draw_corner_width"		"0"				
 		"draw_corner_height" 	"0"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"RedPlayerList"
 	{
@@ -257,6 +307,11 @@
 		"autoresize"		"3"
 		"linespacing"		"15"
 		"textcolor"			"red"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"RedTeamBG"
 	{
@@ -274,6 +329,11 @@
 		"tabPosition"			"0"	
 		"fillcolor"				"0 0 0 150"
 		"PaintBackgroundType"	"0"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"RedTeamScore"
 	{
@@ -291,6 +351,11 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"RedTeamLabel"
 	{
@@ -308,6 +373,11 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}							
 	"RedTeamPlayerCount"
 	{
@@ -324,6 +394,11 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 
 	// server
@@ -343,6 +418,11 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	
 	// time
@@ -363,6 +443,11 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}	
 	"ServerTimeLeftBG"
 	{
@@ -380,6 +465,11 @@
 		"tabPosition"			"0"	
 		"fillcolor"				"0 0 0 150"
 		"PaintBackgroundType"	"0"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}	
 	
 	// spectators
